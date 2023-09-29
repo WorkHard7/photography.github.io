@@ -1,0 +1,38 @@
+.about {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  .about-text {
+    flex: 2 1 40rem;
+    justify-content: space-around;
+    background: $background-color;
+    color: white;
+    h2 {
+      font-family: "Vibes";
+      padding: 4rem;
+    }
+    div {
+      padding: 3rem 8rem;
+    }
+    h3 {
+      padding: 2rem 0rem;
+      font-family: "Ruhl Medium";
+    }
+  }
+  .about-image {
+    position: relative;
+    flex: 1 1 40rem;
+    h5 {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -20%);
+      letter-spacing: 2rem;
+    }
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
